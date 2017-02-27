@@ -1,2 +1,4 @@
 .idea
 AirLineAssistant.iml
+src/main/resources/token
+target
