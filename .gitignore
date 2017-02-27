@@ -1,4 +1,5 @@
 .idea
 AirLineAssistant.iml
+.DS_store
 src/main/resources/token
 target
