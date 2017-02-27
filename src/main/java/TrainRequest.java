@@ -3,9 +3,9 @@
  */
 public class TrainRequest extends Request {
     TrainRequest(String origin, Destination destination, int leaveDay, int leaveMounth,
-                 int leaveYear, int returnDay, int returnMount, int returnYear){
+                 int leaveYear, int returnDay, int returnMount, int returnYear, int duration){
 
-        super(origin,destination,leaveDay,leaveMounth,leaveYear,returnDay,returnMount,returnYear);
+        super(origin,destination,leaveDay,leaveMounth,leaveYear,returnDay,returnMount,returnYear, duration);
     }
 
 

@@ -6,10 +6,11 @@ public class Request {
     protected Destination destination;
     protected int leaveDay , leaveMounth , leaveYear;
     protected int returnDay , returnMount , returnYear;
+    protected int duration;
 
     public Request(String origin, Destination destination, int leaveDay,
                    int leaveMounth, int leaveYear, int returnDay,
-                   int returnMount, int returnYear) {
+                   int returnMount, int returnYear, int duration) {
         this.origin = origin;
         this.destination = destination;
         this.leaveDay = leaveDay;
@@ -18,6 +19,7 @@ public class Request {
         this.returnDay = returnDay;
         this.returnMount = returnMount;
         this.returnYear = returnYear;
+        this.duration = duration;
     }
 
 
