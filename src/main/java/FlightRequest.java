@@ -7,6 +7,8 @@ public class FlightRequest extends Request {
 
         super(origin,destination,leaveDay,leaveMounth,leaveYear,returnDay,returnMount,returnYear);
     }
+
+
 }
 
 
